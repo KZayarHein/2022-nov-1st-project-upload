@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--Light-Gray);
+}
+
+.container {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    width: 100%;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.info h3 {
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: var(--Cyan);
+}
+
+.info span {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: var(--Bright-Yellow);
+}
+
+.info p {
+    line-height: 20px;
+    color: var(--Grayish-Blue);
+}
+
+.sale {
+    background-color: var(--Cyan);
+    color: #fff;
+    border-bottom-left-radius: 10px;
+}
+
+.sale, .about {
+    width: 50%;
+}
+
+.plan {
+    display: flex;
+}
+
+.price {
+    font-size: 30px;
+    margin-right: 13px;
+}
+
+.sale div p {
+    color: var(--Light-Gray);
+    opacity: 0.5;
+}
+
+.sale p {
+    line-height: 36px;
+    
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    /* border: 2px solid; */
+    border-radius: 7px;
+    width: 238px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: var(--Bright-Yellow);
+    box-shadow: 0 5px 5px #837c7c;
+}
+
+.about {
+    background-color: rgba(42, 178, 176, 0.521);;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+}
+
+.about p {
+    line-height: 19px;
+}
+
+p {
+    font-size: 15px;
+
+}
+
+.p-20 {
+    padding: 30px;
+
+}
+
+.fs {
+    font-size: 18px;
+}
+
+.mb {
+    margin-bottom: 15px;
+
+}
